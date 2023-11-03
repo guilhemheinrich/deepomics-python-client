@@ -15,6 +15,7 @@ def putAerobicActivatedSludgeProcessItem(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "/aerobic_activated_sludge_processes/{id}".format(
@@ -23,7 +24,7 @@ def putAerobicActivatedSludgeProcessItem(
     
     # Body parameters (required)
     required_body_content = {
-        "subType": body_subType}, "mixing": body_mixing}, "separationType": body_separationType}, "aeration": body_aeration}, "processCategory": body_processCategory}, "site": body_site}, "siteName": body_siteName}, "siteSlug": body_siteSlug}, "displayName": body_displayName}, "longSlug": body_longSlug}, "canDelete": body_canDelete}, "parentSlug": body_parentSlug}, "parentId": body_parentId}, "events": body_events}, "slug": body_slug}, "project": body_project}, "monitoredMeasureTypes": body_monitoredMeasureTypes}, "measurements": body_measurements}, "id": body_id}, "comments": body_comments}, "name": body_name}, "measures": body_measures}
+        "subType": body_subType, "mixing": body_mixing, "separationType": body_separationType, "aeration": body_aeration, "processCategory": body_processCategory, "site": body_site, "siteName": body_siteName, "siteSlug": body_siteSlug, "displayName": body_displayName, "longSlug": body_longSlug, "canDelete": body_canDelete, "parentSlug": body_parentSlug, "parentId": body_parentId, "events": body_events, "slug": body_slug, "project": body_project, "monitoredMeasureTypes": body_monitoredMeasureTypes, "measurements": body_measurements, "id": body_id, "comments": body_comments, "name": body_name, "measures": body_measures
     }
     json_content = {
         **optional_json_content,

@@ -10,6 +10,7 @@ def deleteDefaultInputItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/default_inputs/{id}".format(

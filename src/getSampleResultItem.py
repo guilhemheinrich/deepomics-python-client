@@ -10,6 +10,7 @@ def getSampleResultItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/sample_results/{id}".format(

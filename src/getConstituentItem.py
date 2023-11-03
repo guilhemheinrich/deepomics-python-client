@@ -10,6 +10,7 @@ def getConstituentItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/constituents/{id}".format(

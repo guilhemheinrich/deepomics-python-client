@@ -12,13 +12,14 @@ def postSiteCollection(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "${data.path}"
     
     # Body parameters (required)
     required_body_content = {
-        "project": body_project}, "processes": body_processes}, "operators": body_operators}, "operatorsDisplayName": body_operatorsDisplayName}, "campaigns": body_campaigns}, "syndicate": body_syndicate}, "region": body_region}, "coordinates": body_coordinates}, "canDelete": body_canDelete}, "city": body_city}, "country": body_country}, "id": body_id}, "name": body_name}, "slug": body_slug}
+        "project": body_project, "processes": body_processes, "operators": body_operators, "operatorsDisplayName": body_operatorsDisplayName, "campaigns": body_campaigns, "syndicate": body_syndicate, "region": body_region, "coordinates": body_coordinates, "canDelete": body_canDelete, "city": body_city, "country": body_country, "id": body_id, "name": body_name, "slug": body_slug
     }
     json_content = {
         **optional_json_content,

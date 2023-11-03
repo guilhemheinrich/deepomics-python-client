@@ -10,6 +10,7 @@ def getTemperatureItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/temperatures/{id}".format(

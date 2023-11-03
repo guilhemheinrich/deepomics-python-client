@@ -10,6 +10,7 @@ def getTargetedTaxonomicOrFunctionalGroupItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/targeted_taxonomic_or_functional_groups/{id}".format(

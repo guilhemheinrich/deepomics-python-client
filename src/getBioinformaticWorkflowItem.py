@@ -10,6 +10,7 @@ def getBioinformaticWorkflowItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/bioinformatic_workflows/{id}".format(

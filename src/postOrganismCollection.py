@@ -12,13 +12,14 @@ def postOrganismCollection(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "${data.path}"
     
     # Body parameters (required)
     required_body_content = {
-        "collectionRef": body_collectionRef}, "collectionName": body_collectionName}, "taxidSpecies": body_taxidSpecies}, "taxidStrain": body_taxidStrain}, "bacDiveRef": body_bacDiveRef}, "organismSpecies": body_organismSpecies}, "descriptionForSample": body_descriptionForSample}, "inputCategory": body_inputCategory}, "project": body_project}, "samples": body_samples}, "documents": body_documents}, "slugForSample": body_slugForSample}, "comments": body_comments}, "id": body_id}, "measures": body_measures}, "name": body_name}, "labeledElements": body_labeledElements}, "labeledElementForSample": body_labeledElementForSample}
+        "collectionRef": body_collectionRef, "collectionName": body_collectionName, "taxidSpecies": body_taxidSpecies, "taxidStrain": body_taxidStrain, "bacDiveRef": body_bacDiveRef, "organismSpecies": body_organismSpecies, "descriptionForSample": body_descriptionForSample, "inputCategory": body_inputCategory, "project": body_project, "samples": body_samples, "documents": body_documents, "slugForSample": body_slugForSample, "comments": body_comments, "id": body_id, "measures": body_measures, "name": body_name, "labeledElements": body_labeledElements, "labeledElementForSample": body_labeledElementForSample
     }
     json_content = {
         **optional_json_content,

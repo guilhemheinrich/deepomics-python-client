@@ -15,6 +15,7 @@ def putLeachateItem(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "/leachates/{id}".format(
@@ -23,7 +24,7 @@ def putLeachateItem(
     
     # Body parameters (required)
     required_body_content = {
-        "id": body_id}, "measures": body_measures}
+        "id": body_id, "measures": body_measures
     }
     json_content = {
         **optional_json_content,

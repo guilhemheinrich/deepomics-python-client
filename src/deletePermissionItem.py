@@ -10,6 +10,7 @@ def deletePermissionItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/permissions/{id}".format(

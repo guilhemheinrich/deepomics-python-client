@@ -12,13 +12,14 @@ def postReconstitutedHouseholdWasteCollection(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "${data.path}"
     
     # Body parameters (required)
     required_body_content = {
-        "referenceName": body_referenceName}, "recipe": body_recipe}, "descriptionForSample": body_descriptionForSample}, "inputCategory": body_inputCategory}, "project": body_project}, "samples": body_samples}, "documents": body_documents}, "slugForSample": body_slugForSample}, "comments": body_comments}, "id": body_id}, "measures": body_measures}, "name": body_name}, "modecoms": body_modecoms}, "year": body_year}
+        "referenceName": body_referenceName, "recipe": body_recipe, "descriptionForSample": body_descriptionForSample, "inputCategory": body_inputCategory, "project": body_project, "samples": body_samples, "documents": body_documents, "slugForSample": body_slugForSample, "comments": body_comments, "id": body_id, "measures": body_measures, "name": body_name, "modecoms": body_modecoms, "year": body_year
     }
     json_content = {
         **optional_json_content,

@@ -10,6 +10,7 @@ def getSequencingProcedureItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/sequencing_procedures/{id}".format(

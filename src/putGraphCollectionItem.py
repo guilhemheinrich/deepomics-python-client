@@ -15,6 +15,7 @@ def putGraphCollectionItem(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "/graph_collections/{id}".format(
@@ -23,7 +24,7 @@ def putGraphCollectionItem(
     
     # Body parameters (required)
     required_body_content = {
-        "graphs": body_graphs}, "operation": body_operation}, "id": body_id}, "name": body_name}
+        "graphs": body_graphs, "operation": body_operation, "id": body_id, "name": body_name
     }
     json_content = {
         **optional_json_content,

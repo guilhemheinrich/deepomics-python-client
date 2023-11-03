@@ -13,6 +13,7 @@ def api_anaerobic_digestion_dry_processes_leachate_measures_get_subresourceAnaer
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/anaerobic_digestion_dry_processes/{id}/leachate/measures".format(

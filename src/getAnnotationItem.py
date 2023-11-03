@@ -10,6 +10,7 @@ def getAnnotationItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/annotations/{id}".format(

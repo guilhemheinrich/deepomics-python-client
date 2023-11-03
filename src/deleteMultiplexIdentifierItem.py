@@ -10,6 +10,7 @@ def deleteMultiplexIdentifierItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/multiplex_identifiers/{id}".format(

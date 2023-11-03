@@ -12,6 +12,7 @@ def uploadFileItem(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "/files/{id}".format(

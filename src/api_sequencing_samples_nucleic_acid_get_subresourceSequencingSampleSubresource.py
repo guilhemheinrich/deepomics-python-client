@@ -10,6 +10,7 @@ def api_sequencing_samples_nucleic_acid_get_subresourceSequencingSampleSubresour
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/sequencing_samples/{id}/nucleic_acid".format(

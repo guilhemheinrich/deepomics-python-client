@@ -10,6 +10,7 @@ def getCollectionNameItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/collection_names/{id}".format(

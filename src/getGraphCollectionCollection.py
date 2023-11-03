@@ -10,6 +10,7 @@ def getGraphCollectionCollection(
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "${data.path}"

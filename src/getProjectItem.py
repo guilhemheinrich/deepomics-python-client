@@ -10,6 +10,7 @@ def getProjectItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/projects/{id}".format(

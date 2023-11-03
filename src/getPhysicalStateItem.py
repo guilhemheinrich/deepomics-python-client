@@ -10,6 +10,7 @@ def getPhysicalStateItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/physical_states/{id}".format(

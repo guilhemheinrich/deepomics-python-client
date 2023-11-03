@@ -10,6 +10,7 @@ def getBiomassScientificNameItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/biomass_scientific_names/{id}".format(

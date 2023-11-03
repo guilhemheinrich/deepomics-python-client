@@ -10,6 +10,7 @@ def getLocationItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/locations/{id}".format(

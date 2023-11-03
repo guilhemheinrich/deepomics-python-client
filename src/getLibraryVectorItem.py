@@ -10,6 +10,7 @@ def getLibraryVectorItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/library_vectors/{id}".format(

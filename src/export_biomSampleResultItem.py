@@ -15,6 +15,7 @@ def export_biomSampleResultItem(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "/project/{id}/bioinfo/bio_sample_results/export/biom".format(
@@ -23,7 +24,7 @@ def export_biomSampleResultItem(
     
     # Body parameters (required)
     required_body_content = {
-        "sequencingSample": body_sequencingSample}, "displaySequencingSample": body_displaySequencingSample}, "displaySample": body_displaySample}, "metabarcodingBioinformaticRun": body_metabarcodingBioinformaticRun}, "displayMetabarcodingBioinformaticRun": body_displayMetabarcodingBioinformaticRun}, "displayBioinformaticWorkflow": body_displayBioinformaticWorkflow}, "annotations": body_annotations}, "numberOfRawReads": body_numberOfRawReads}, "postProcessReads": body_postProcessReads}, "numberOfASV": body_numberOfASV}, "totalAnnotationCount": body_totalAnnotationCount}, "id": body_id}
+        "sequencingSample": body_sequencingSample, "displaySequencingSample": body_displaySequencingSample, "displaySample": body_displaySample, "metabarcodingBioinformaticRun": body_metabarcodingBioinformaticRun, "displayMetabarcodingBioinformaticRun": body_displayMetabarcodingBioinformaticRun, "displayBioinformaticWorkflow": body_displayBioinformaticWorkflow, "annotations": body_annotations, "numberOfRawReads": body_numberOfRawReads, "postProcessReads": body_postProcessReads, "numberOfASV": body_numberOfASV, "totalAnnotationCount": body_totalAnnotationCount, "id": body_id
     }
     json_content = {
         **optional_json_content,

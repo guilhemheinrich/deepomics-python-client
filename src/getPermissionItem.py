@@ -10,6 +10,7 @@ def getPermissionItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/permissions/{id}".format(

@@ -10,6 +10,7 @@ def deleteSoftwareItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/software/{id}/safe_delete".format(

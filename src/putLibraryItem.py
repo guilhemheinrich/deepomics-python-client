@@ -15,6 +15,7 @@ def putLibraryItem(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "/libraries/{id}".format(
@@ -23,7 +24,7 @@ def putLibraryItem(
     
     # Body parameters (required)
     required_body_content = {
-        "libraryKits": body_libraryKits}, "libraryProcedure": body_libraryProcedure}, "libraryLayout": body_libraryLayout}, "libSize": body_libSize}, "libraryVector": body_libraryVector}, "libraryScreeningStrategy": body_libraryScreeningStrategy}, "id": body_id}
+        "libraryKits": body_libraryKits, "libraryProcedure": body_libraryProcedure, "libraryLayout": body_libraryLayout, "libSize": body_libSize, "libraryVector": body_libraryVector, "libraryScreeningStrategy": body_libraryScreeningStrategy, "id": body_id
     }
     json_content = {
         **optional_json_content,

@@ -10,6 +10,7 @@ def getMembraneTypeItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/membrane_types/{id}".format(

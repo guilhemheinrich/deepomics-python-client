@@ -10,6 +10,7 @@ def deleteBioinformaticWorkflowProcedureItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/bioinformatic_workflow_procedures/{id}".format(

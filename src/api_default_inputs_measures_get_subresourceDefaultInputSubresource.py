@@ -13,6 +13,7 @@ def api_default_inputs_measures_get_subresourceDefaultInputSubresource(
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/default_inputs/{id}/measures".format(

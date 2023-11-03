@@ -10,6 +10,7 @@ def deleteCompartmentItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/compartments/{id}".format(

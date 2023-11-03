@@ -10,6 +10,7 @@ def deleteGraphItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/graphs/{id}".format(

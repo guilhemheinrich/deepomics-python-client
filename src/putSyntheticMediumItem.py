@@ -15,6 +15,7 @@ def putSyntheticMediumItem(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "/synthetic_media/{id}".format(
@@ -23,7 +24,7 @@ def putSyntheticMediumItem(
     
     # Body parameters (required)
     required_body_content = {
-        "ph": body_ph}, "carbonateAdded": body_carbonateAdded}, "genericName": body_genericName}, "recipe": body_recipe}, "descriptionForSample": body_descriptionForSample}, "inputCategory": body_inputCategory}, "project": body_project}, "samples": body_samples}, "documents": body_documents}, "slugForSample": body_slugForSample}, "comments": body_comments}, "id": body_id}, "measures": body_measures}, "name": body_name}
+        "ph": body_ph, "carbonateAdded": body_carbonateAdded, "genericName": body_genericName, "recipe": body_recipe, "descriptionForSample": body_descriptionForSample, "inputCategory": body_inputCategory, "project": body_project, "samples": body_samples, "documents": body_documents, "slugForSample": body_slugForSample, "comments": body_comments, "id": body_id, "measures": body_measures, "name": body_name
     }
     json_content = {
         **optional_json_content,

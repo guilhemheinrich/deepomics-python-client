@@ -13,6 +13,7 @@ def api_leachates_measures_get_subresourceLeachateSubresource(
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/leachates/{id}/measures".format(

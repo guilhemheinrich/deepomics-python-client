@@ -13,6 +13,7 @@ def api_compartments_measures_get_subresourceCompartmentSubresource(
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/compartments/{id}/measures".format(

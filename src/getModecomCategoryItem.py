@@ -10,6 +10,7 @@ def getModecomCategoryItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/modecom_categories/{id}".format(

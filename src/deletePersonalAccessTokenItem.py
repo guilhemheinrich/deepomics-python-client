@@ -10,6 +10,7 @@ def deletePersonalAccessTokenItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/users/myself/tokens/{id}".format(

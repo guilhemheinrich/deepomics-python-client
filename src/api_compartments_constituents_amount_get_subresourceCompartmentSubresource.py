@@ -10,6 +10,7 @@ def api_compartments_constituents_amount_get_subresourceCompartmentSubresource(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/compartments/{id}/constituents/{constituents}/amount".format(

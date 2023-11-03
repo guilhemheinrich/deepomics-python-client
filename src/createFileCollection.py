@@ -9,6 +9,7 @@ def createFileCollection(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "${data.path}"

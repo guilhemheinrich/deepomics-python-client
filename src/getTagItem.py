@@ -10,6 +10,7 @@ def getTagItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/tags/{id}".format(

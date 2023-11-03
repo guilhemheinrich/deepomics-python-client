@@ -13,6 +13,7 @@ def api_temperatures_measures_get_subresourceTemperatureSubresource(
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/temperatures/{id}/measures".format(

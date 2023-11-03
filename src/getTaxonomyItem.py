@@ -10,6 +10,7 @@ def getTaxonomyItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/taxonomies/{id}".format(

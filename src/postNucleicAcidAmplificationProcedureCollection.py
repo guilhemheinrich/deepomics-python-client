@@ -12,13 +12,14 @@ def postNucleicAcidAmplificationProcedureCollection(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "${data.path}"
     
     # Body parameters (required)
     required_body_content = {
-        "canDelete": body_canDelete}, "document": body_document}, "project": body_project}, "linkOrDOIOrDocumentNotNull": body_linkOrDOIOrDocumentNotNull}, "onlyUrlOrDOIO": body_onlyUrlOrDOIO}, "comments": body_comments}, "doi": body_doi}, "url": body_url}, "id": body_id}, "name": body_name}, "slug": body_slug}
+        "canDelete": body_canDelete, "document": body_document, "project": body_project, "linkOrDOIOrDocumentNotNull": body_linkOrDOIOrDocumentNotNull, "onlyUrlOrDOIO": body_onlyUrlOrDOIO, "comments": body_comments, "doi": body_doi, "url": body_url, "id": body_id, "name": body_name, "slug": body_slug
     }
     json_content = {
         **optional_json_content,

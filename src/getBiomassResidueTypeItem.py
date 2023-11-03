@@ -10,6 +10,7 @@ def getBiomassResidueTypeItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/biomass_residue_types/{id}".format(

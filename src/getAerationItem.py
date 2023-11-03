@@ -10,6 +10,7 @@ def getAerationItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/aerations/{id}".format(

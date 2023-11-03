@@ -10,6 +10,7 @@ def api_sequencing_samples_sequencing_sample_result_get_subresourceSequencingSam
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/sequencing_samples/{id}/sequencing_sample_result".format(

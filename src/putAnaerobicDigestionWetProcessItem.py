@@ -15,6 +15,7 @@ def putAnaerobicDigestionWetProcessItem(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "/anaerobic_digestion_wet_processes/{id}".format(
@@ -23,7 +24,7 @@ def putAnaerobicDigestionWetProcessItem(
     
     # Body parameters (required)
     required_body_content = {
-        "temperature": body_temperature}, "support": body_support}, "mixing": body_mixing}, "processCategory": body_processCategory}, "site": body_site}, "siteName": body_siteName}, "siteSlug": body_siteSlug}, "displayName": body_displayName}, "longSlug": body_longSlug}, "canDelete": body_canDelete}, "parentSlug": body_parentSlug}, "parentId": body_parentId}, "events": body_events}, "slug": body_slug}, "project": body_project}, "monitoredMeasureTypes": body_monitoredMeasureTypes}, "measurements": body_measurements}, "id": body_id}, "comments": body_comments}, "name": body_name}, "measures": body_measures}
+        "temperature": body_temperature, "support": body_support, "mixing": body_mixing, "processCategory": body_processCategory, "site": body_site, "siteName": body_siteName, "siteSlug": body_siteSlug, "displayName": body_displayName, "longSlug": body_longSlug, "canDelete": body_canDelete, "parentSlug": body_parentSlug, "parentId": body_parentId, "events": body_events, "slug": body_slug, "project": body_project, "monitoredMeasureTypes": body_monitoredMeasureTypes, "measurements": body_measurements, "id": body_id, "comments": body_comments, "name": body_name, "measures": body_measures
     }
     json_content = {
         **optional_json_content,

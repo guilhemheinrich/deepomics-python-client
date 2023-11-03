@@ -15,6 +15,7 @@ def putTemperatureCategoryItem(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "/temperature_categories/{id}".format(
@@ -23,7 +24,7 @@ def putTemperatureCategoryItem(
     
     # Body parameters (required)
     required_body_content = {
-        "id": body_id}, "name": body_name}
+        "id": body_id, "name": body_name
     }
     json_content = {
         **optional_json_content,

@@ -10,6 +10,7 @@ def getAdapterTypeItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/adapter_types/{id}".format(

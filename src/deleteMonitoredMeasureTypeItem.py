@@ -10,6 +10,7 @@ def deleteMonitoredMeasureTypeItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/monitored_measure_types/{id}".format(

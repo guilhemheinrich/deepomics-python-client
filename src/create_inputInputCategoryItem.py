@@ -10,6 +10,7 @@ def create_inputInputCategoryItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/input_categories/{id}/create_input/{projectId}".format(

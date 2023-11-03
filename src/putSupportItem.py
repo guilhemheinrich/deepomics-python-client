@@ -15,6 +15,7 @@ def putSupportItem(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "/supports/{id}".format(
@@ -23,7 +24,7 @@ def putSupportItem(
     
     # Body parameters (required)
     required_body_content = {
-        "material": body_material}, "type": body_type}, "id": body_id}, "measures": body_measures}
+        "material": body_material, "type": body_type, "id": body_id, "measures": body_measures
     }
     json_content = {
         **optional_json_content,

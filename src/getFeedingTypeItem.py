@@ -10,6 +10,7 @@ def getFeedingTypeItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/feeding_types/{id}".format(

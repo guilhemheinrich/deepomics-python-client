@@ -10,6 +10,7 @@ def getIsotopeItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/isotopes/{id}".format(

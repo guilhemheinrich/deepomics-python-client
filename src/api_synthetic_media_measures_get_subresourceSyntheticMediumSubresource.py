@@ -13,6 +13,7 @@ def api_synthetic_media_measures_get_subresourceSyntheticMediumSubresource(
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/synthetic_media/{id}/measures".format(

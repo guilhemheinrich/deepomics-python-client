@@ -10,6 +10,7 @@ def getNucleicAcidExtractionMethodItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/nucleic_acid_extraction_methods/{id}".format(

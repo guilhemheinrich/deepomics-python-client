@@ -10,6 +10,7 @@ def api_sequencing_samples_sequencing_sample_complement_library_get_subresourceS
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/sequencing_samples/{id}/sequencing_sample_complement/library".format(

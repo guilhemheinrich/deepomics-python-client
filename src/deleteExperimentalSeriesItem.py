@@ -10,6 +10,7 @@ def deleteExperimentalSeriesItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/experimental_series/{id}".format(

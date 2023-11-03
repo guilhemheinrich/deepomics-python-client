@@ -10,6 +10,7 @@ def sample_resultMetabarcodingBioinformaticRunItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/metabarcoding_bioinformation_run/{id}/sample_result".format(

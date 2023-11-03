@@ -10,6 +10,7 @@ def getMaterialTypeItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/material_types/{id}".format(

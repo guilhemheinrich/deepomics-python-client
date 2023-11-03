@@ -10,6 +10,7 @@ def getDefaultSampleItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/default_samples/{id}".format(

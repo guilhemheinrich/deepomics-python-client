@@ -12,13 +12,14 @@ def postRelevantElectronicResourceCollection(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "${data.path}"
     
     # Body parameters (required)
     required_body_content = {
-        "project": body_project}, "canDelete": body_canDelete}, "comments": body_comments}, "id": body_id}, "name": body_name}, "slug": body_slug}, "urlOrDoiNotNull": body_urlOrDoiNotNull}, "doi": body_doi}, "url": body_url}
+        "project": body_project, "canDelete": body_canDelete, "comments": body_comments, "id": body_id, "name": body_name, "slug": body_slug, "urlOrDoiNotNull": body_urlOrDoiNotNull, "doi": body_doi, "url": body_url
     }
     json_content = {
         **optional_json_content,

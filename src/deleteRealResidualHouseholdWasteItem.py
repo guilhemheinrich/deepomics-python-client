@@ -10,6 +10,7 @@ def deleteRealResidualHouseholdWasteItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/real_residual_household_wastes/{id}".format(

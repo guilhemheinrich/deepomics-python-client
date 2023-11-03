@@ -10,6 +10,7 @@ def deleteNucleicAcidItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/nucleic_acids/{id}".format(

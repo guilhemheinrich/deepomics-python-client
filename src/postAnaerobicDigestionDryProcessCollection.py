@@ -12,13 +12,14 @@ def postAnaerobicDigestionDryProcessCollection(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "${data.path}"
     
     # Body parameters (required)
     required_body_content = {
-        "leachate": body_leachate}, "processCategory": body_processCategory}, "site": body_site}, "siteName": body_siteName}, "siteSlug": body_siteSlug}, "displayName": body_displayName}, "longSlug": body_longSlug}, "canDelete": body_canDelete}, "parentSlug": body_parentSlug}, "parentId": body_parentId}, "events": body_events}, "slug": body_slug}, "project": body_project}, "monitoredMeasureTypes": body_monitoredMeasureTypes}, "measurements": body_measurements}, "id": body_id}, "comments": body_comments}, "name": body_name}, "measures": body_measures}
+        "leachate": body_leachate, "processCategory": body_processCategory, "site": body_site, "siteName": body_siteName, "siteSlug": body_siteSlug, "displayName": body_displayName, "longSlug": body_longSlug, "canDelete": body_canDelete, "parentSlug": body_parentSlug, "parentId": body_parentId, "events": body_events, "slug": body_slug, "project": body_project, "monitoredMeasureTypes": body_monitoredMeasureTypes, "measurements": body_measurements, "id": body_id, "comments": body_comments, "name": body_name, "measures": body_measures
     }
     json_content = {
         **optional_json_content,

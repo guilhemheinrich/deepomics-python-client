@@ -10,6 +10,7 @@ def api_anaerobic_digestion_wet_processes_temperature_get_subresourceAnaerobicDi
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/anaerobic_digestion_wet_processes/{id}/temperature".format(

@@ -10,6 +10,7 @@ def deleteFileItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/files/{id}".format(

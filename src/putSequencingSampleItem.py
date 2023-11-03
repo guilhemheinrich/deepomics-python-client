@@ -15,6 +15,7 @@ def putSequencingSampleItem(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "/sequencing_samples/{id}".format(
@@ -23,7 +24,7 @@ def putSequencingSampleItem(
     
     # Body parameters (required)
     required_body_content = {
-        "sequencingRun": body_sequencingRun}, "project": body_project}, "sample": body_sample}, "displaySample": body_displaySample}, "pcrPrimers": body_pcrPrimers}, "displayPcrPrimers": body_displayPcrPrimers}, "matrixType": body_matrixType}, "displayMatrixType": body_displayMatrixType}, "nucleicAcid": body_nucleicAcid}, "targetedGeneOrGenomicRegion": body_targetedGeneOrGenomicRegion}, "displayTargetedGeneOrGenomicRegion": body_displayTargetedGeneOrGenomicRegion}, "taxonomicOrFunctionalGroups": body_taxonomicOrFunctionalGroups}, "displayTaxonomicOrFunctionalGroups": body_displayTaxonomicOrFunctionalGroups}, "targetSubfragments": body_targetSubfragments}, "displaySubfragments": body_displaySubfragments}, "sequencingSampleComplement": body_sequencingSampleComplement}, "sequencingSampleResult": body_sequencingSampleResult}, "sampleResults": body_sampleResults}, "theBestSampleResult": body_theBestSampleResult}, "canDelete": body_canDelete}, "correctTargetSubfragmentsMandatory": body_correctTargetSubfragmentsMandatory}, "libraryLayoutSlug": body_libraryLayoutSlug}, "resultFilename": body_resultFilename}, "resultReverseFilename": body_resultReverseFilename}, "comments": body_comments}, "id": body_id}, "measures": body_measures}, "slug": body_slug}
+        "sequencingRun": body_sequencingRun, "project": body_project, "sample": body_sample, "displaySample": body_displaySample, "pcrPrimers": body_pcrPrimers, "displayPcrPrimers": body_displayPcrPrimers, "matrixType": body_matrixType, "displayMatrixType": body_displayMatrixType, "nucleicAcid": body_nucleicAcid, "targetedGeneOrGenomicRegion": body_targetedGeneOrGenomicRegion, "displayTargetedGeneOrGenomicRegion": body_displayTargetedGeneOrGenomicRegion, "taxonomicOrFunctionalGroups": body_taxonomicOrFunctionalGroups, "displayTaxonomicOrFunctionalGroups": body_displayTaxonomicOrFunctionalGroups, "targetSubfragments": body_targetSubfragments, "displaySubfragments": body_displaySubfragments, "sequencingSampleComplement": body_sequencingSampleComplement, "sequencingSampleResult": body_sequencingSampleResult, "sampleResults": body_sampleResults, "theBestSampleResult": body_theBestSampleResult, "canDelete": body_canDelete, "correctTargetSubfragmentsMandatory": body_correctTargetSubfragmentsMandatory, "libraryLayoutSlug": body_libraryLayoutSlug, "resultFilename": body_resultFilename, "resultReverseFilename": body_resultReverseFilename, "comments": body_comments, "id": body_id, "measures": body_measures, "slug": body_slug
     }
     json_content = {
         **optional_json_content,

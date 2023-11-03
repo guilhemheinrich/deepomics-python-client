@@ -10,6 +10,7 @@ def getMixingTypeItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/mixing_types/{id}".format(

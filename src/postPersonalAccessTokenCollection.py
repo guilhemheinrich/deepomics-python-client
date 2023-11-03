@@ -12,13 +12,14 @@ def postPersonalAccessTokenCollection(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "${data.path}"
     
     # Body parameters (required)
     required_body_content = {
-        "comment": body_comment}, "expiresAt": body_expiresAt}
+        "comment": body_comment, "expiresAt": body_expiresAt
     }
     json_content = {
         **optional_json_content,

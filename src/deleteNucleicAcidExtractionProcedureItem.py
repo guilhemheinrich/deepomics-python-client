@@ -10,6 +10,7 @@ def deleteNucleicAcidExtractionProcedureItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/nucleic_acid_extraction_procedures/{id}".format(

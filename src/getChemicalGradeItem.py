@@ -10,6 +10,7 @@ def getChemicalGradeItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/chemical_grades/{id}".format(

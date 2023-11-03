@@ -10,6 +10,7 @@ def deleteOrganismItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/organisms/{id}".format(

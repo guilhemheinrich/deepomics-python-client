@@ -10,6 +10,7 @@ def getBiomassCommonNameItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/biomass_common_names/{id}".format(

@@ -13,6 +13,7 @@ def api_reactors_dimensions_get_subresourceReactorSubresource(
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/reactors/{id}/dimensions".format(

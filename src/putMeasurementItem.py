@@ -15,6 +15,7 @@ def putMeasurementItem(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "/measurements/{id}".format(
@@ -23,7 +24,7 @@ def putMeasurementItem(
     
     # Body parameters (required)
     required_body_content = {
-        "location": body_location}, "project": body_project}, "operators": body_operators}, "type": body_type}, "unit": body_unit}, "monitoredMeasures": body_monitoredMeasures}, "id": body_id}
+        "location": body_location, "project": body_project, "operators": body_operators, "type": body_type, "unit": body_unit, "monitoredMeasures": body_monitoredMeasures, "id": body_id
     }
     json_content = {
         **optional_json_content,

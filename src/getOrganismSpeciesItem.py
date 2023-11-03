@@ -10,6 +10,7 @@ def getOrganismSpeciesItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/organism_species/{id}".format(

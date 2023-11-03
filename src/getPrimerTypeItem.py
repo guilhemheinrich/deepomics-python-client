@@ -10,6 +10,7 @@ def getPrimerTypeItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/primer_types/{id}".format(

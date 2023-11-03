@@ -10,6 +10,7 @@ def getGraphCollectionItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/graph_collections/{id}".format(

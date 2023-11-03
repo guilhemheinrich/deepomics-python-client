@@ -10,6 +10,7 @@ def get_permissions_for_collectionUserCollection(
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "${data.path}"

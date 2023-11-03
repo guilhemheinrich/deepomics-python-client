@@ -10,6 +10,7 @@ def getCompartmentItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/compartments/{id}".format(

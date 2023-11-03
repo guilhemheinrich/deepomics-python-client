@@ -10,6 +10,7 @@ def getAnaerobicDigestionWetProcessItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/anaerobic_digestion_wet_processes/{id}".format(

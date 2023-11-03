@@ -10,6 +10,7 @@ def deleteChemicalCompoundItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/chemical_compounds/{id}".format(

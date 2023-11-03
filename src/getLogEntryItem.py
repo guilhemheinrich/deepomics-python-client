@@ -10,6 +10,7 @@ def getLogEntryItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/log_entries/{id}".format(

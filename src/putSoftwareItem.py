@@ -15,6 +15,7 @@ def putSoftwareItem(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "/software/{id}".format(
@@ -23,7 +24,7 @@ def putSoftwareItem(
     
     # Body parameters (required)
     required_body_content = {
-        "softwareName": body_softwareName}, "displaySoftwareName": body_displaySoftwareName}, "version": body_version}, "parameters": body_parameters}, "id": body_id}, "name": body_name}, "project": body_project}, "status": body_status}, "correctStatusAndProject": body_correctStatusAndProject}, "slug": body_slug}
+        "softwareName": body_softwareName, "displaySoftwareName": body_displaySoftwareName, "version": body_version, "parameters": body_parameters, "id": body_id, "name": body_name, "project": body_project, "status": body_status, "correctStatusAndProject": body_correctStatusAndProject, "slug": body_slug
     }
     json_content = {
         **optional_json_content,

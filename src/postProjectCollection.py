@@ -12,13 +12,14 @@ def postProjectCollection(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "${data.path}"
     
     # Body parameters (required)
     required_body_content = {
-        "participants": body_participants}, "participantsDisplayName": body_participantsDisplayName}, "allParticipants": body_allParticipants}, "observers": body_observers}, "observersDisplayName": body_observersDisplayName}, "startDate": body_startDate}, "endDate": body_endDate}, "experimentalSeries": body_experimentalSeries}, "campaigns": body_campaigns}, "allLocations": body_allLocations}, "coordinator": body_coordinator}, "coordinatorDisplayName": body_coordinatorDisplayName}, "contact": body_contact}, "contactDisplayName": body_contactDisplayName}, "summary": body_summary}, "sites": body_sites}, "samples": body_samples}, "inputs": body_inputs}, "documents": body_documents}, "articles": body_articles}, "status": body_status}, "reference": body_reference}, "canDelete": body_canDelete}, "comments": body_comments}, "id": body_id}, "name": body_name}, "slug": body_slug}, "tags": body_tags}, "tagsName": body_tagsName}, "url": body_url}
+        "participants": body_participants, "participantsDisplayName": body_participantsDisplayName, "allParticipants": body_allParticipants, "observers": body_observers, "observersDisplayName": body_observersDisplayName, "startDate": body_startDate, "endDate": body_endDate, "experimentalSeries": body_experimentalSeries, "campaigns": body_campaigns, "allLocations": body_allLocations, "coordinator": body_coordinator, "coordinatorDisplayName": body_coordinatorDisplayName, "contact": body_contact, "contactDisplayName": body_contactDisplayName, "summary": body_summary, "sites": body_sites, "samples": body_samples, "inputs": body_inputs, "documents": body_documents, "articles": body_articles, "status": body_status, "reference": body_reference, "canDelete": body_canDelete, "comments": body_comments, "id": body_id, "name": body_name, "slug": body_slug, "tags": body_tags, "tagsName": body_tagsName, "url": body_url
     }
     json_content = {
         **optional_json_content,

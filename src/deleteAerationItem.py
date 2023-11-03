@@ -10,6 +10,7 @@ def deleteAerationItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/aerations/{id}".format(

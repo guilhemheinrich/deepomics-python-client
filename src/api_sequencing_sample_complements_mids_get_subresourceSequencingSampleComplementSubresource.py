@@ -13,6 +13,7 @@ def api_sequencing_sample_complements_mids_get_subresourceSequencingSampleComple
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/sequencing_sample_complements/{id}/mids".format(

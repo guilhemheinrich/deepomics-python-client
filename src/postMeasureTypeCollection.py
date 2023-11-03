@@ -12,13 +12,14 @@ def postMeasureTypeCollection(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "${data.path}"
     
     # Body parameters (required)
     required_body_content = {
-        "allowedUnits": body_allowedUnits}, "defaultUnit": body_defaultUnit}, "category": body_category}, "tags": body_tags}, "withUnit": body_withUnit}, "id": body_id}, "name": body_name}, "slug": body_slug}
+        "allowedUnits": body_allowedUnits, "defaultUnit": body_defaultUnit, "category": body_category, "tags": body_tags, "withUnit": body_withUnit, "id": body_id, "name": body_name, "slug": body_slug
     }
     json_content = {
         **optional_json_content,

@@ -10,6 +10,7 @@ def getManufacturedMaterialItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/manufactured_materials/{id}".format(

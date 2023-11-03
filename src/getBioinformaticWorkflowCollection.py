@@ -10,6 +10,7 @@ def getBioinformaticWorkflowCollection(
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "${data.path}"

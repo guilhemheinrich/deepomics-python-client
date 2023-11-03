@@ -10,6 +10,7 @@ def api_anaerobic_digestion_wet_processes_support_get_subresourceAnaerobicDigest
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/anaerobic_digestion_wet_processes/{id}/support".format(

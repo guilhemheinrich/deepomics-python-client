@@ -13,6 +13,7 @@ def api_biomass_feedstocks_measures_get_subresourceBiomassFeedstockSubresource(
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/biomass_feedstocks/{id}/measures".format(

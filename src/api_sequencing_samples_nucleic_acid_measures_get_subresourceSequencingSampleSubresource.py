@@ -13,6 +13,7 @@ def api_sequencing_samples_nucleic_acid_measures_get_subresourceSequencingSample
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/sequencing_samples/{id}/nucleic_acid/measures".format(

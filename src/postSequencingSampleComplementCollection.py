@@ -12,13 +12,14 @@ def postSequencingSampleComplementCollection(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "${data.path}"
     
     # Body parameters (required)
     required_body_content = {
-        "nuclAcidAmp": body_nuclAcidAmp}, "pcrCond": body_pcrCond}, "library": body_library}, "seqReadLength": body_seqReadLength}, "mids": body_mids}, "displayMids": body_displayMids}, "adapters": body_adapters}, "displayAdapters": body_displayAdapters}, "urls": body_urls}, "displayUrls": body_displayUrls}, "sops": body_sops}, "displaySops": body_displaySops}, "id": body_id}
+        "nuclAcidAmp": body_nuclAcidAmp, "pcrCond": body_pcrCond, "library": body_library, "seqReadLength": body_seqReadLength, "mids": body_mids, "displayMids": body_displayMids, "adapters": body_adapters, "displayAdapters": body_displayAdapters, "urls": body_urls, "displayUrls": body_displayUrls, "sops": body_sops, "displaySops": body_displaySops, "id": body_id
     }
     json_content = {
         **optional_json_content,

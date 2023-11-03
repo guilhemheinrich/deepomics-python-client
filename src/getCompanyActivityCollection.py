@@ -10,6 +10,7 @@ def getCompanyActivityCollection(
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "${data.path}"

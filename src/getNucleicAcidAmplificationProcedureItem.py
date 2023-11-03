@@ -10,6 +10,7 @@ def getNucleicAcidAmplificationProcedureItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/nucleic_acid_amplification_procedures/{id}".format(

@@ -13,6 +13,7 @@ def api_anaerobic_digestion_wet_processes_mixing_measures_get_subresourceAnaerob
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/anaerobic_digestion_wet_processes/{id}/mixing/measures".format(

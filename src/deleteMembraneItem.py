@@ -10,6 +10,7 @@ def deleteMembraneItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/membranes/{id}".format(

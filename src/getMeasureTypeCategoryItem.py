@@ -10,6 +10,7 @@ def getMeasureTypeCategoryItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/measure_type_categories/{id}".format(

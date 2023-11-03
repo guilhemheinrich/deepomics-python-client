@@ -10,6 +10,7 @@ def api_constituents_amount_get_subresourceConstituentSubresource(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/constituents/{id}/amount".format(

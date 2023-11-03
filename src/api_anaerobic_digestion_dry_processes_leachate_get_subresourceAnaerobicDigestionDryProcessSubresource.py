@@ -10,6 +10,7 @@ def api_anaerobic_digestion_dry_processes_leachate_get_subresourceAnaerobicDiges
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/anaerobic_digestion_dry_processes/{id}/leachate".format(

@@ -10,6 +10,7 @@ def deleteCampaignItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/campaigns/{id}".format(

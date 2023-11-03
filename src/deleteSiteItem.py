@@ -10,6 +10,7 @@ def deleteSiteItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/sites/{id}".format(

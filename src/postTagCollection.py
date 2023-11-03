@@ -12,13 +12,14 @@ def postTagCollection(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "${data.path}"
     
     # Body parameters (required)
     required_body_content = {
-        "deprecated": body_deprecated}, "isDeprecated": body_isDeprecated}, "id": body_id}, "name": body_name}, "slug": body_slug}
+        "deprecated": body_deprecated, "isDeprecated": body_isDeprecated, "id": body_id, "name": body_name, "slug": body_slug
     }
     json_content = {
         **optional_json_content,

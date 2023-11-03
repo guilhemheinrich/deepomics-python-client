@@ -13,6 +13,7 @@ def api_reconstituted_household_wastes_measures_get_subresourceReconstitutedHous
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/reconstituted_household_wastes/{id}/measures".format(

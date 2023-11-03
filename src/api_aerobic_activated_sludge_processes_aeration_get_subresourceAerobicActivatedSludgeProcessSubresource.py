@@ -10,6 +10,7 @@ def api_aerobic_activated_sludge_processes_aeration_get_subresourceAerobicActiva
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/aerobic_activated_sludge_processes/{id}/aeration".format(

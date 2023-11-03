@@ -12,13 +12,14 @@ def postBioinformaticWorkflowCollection(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "${data.path}"
     
     # Body parameters (required)
     required_body_content = {
-        "version": body_version}, "bioinformaticFrameworks": body_bioinformaticFrameworks}, "bioinformaticFrameworksDisplay": body_bioinformaticFrameworksDisplay}, "trimmingAndDenoisingTools": body_trimmingAndDenoisingTools}, "trimmingAndDenoisingToolsDisplay": body_trimmingAndDenoisingToolsDisplay}, "assemblySoftware": body_assemblySoftware}, "assemblySoftwareDisplay": body_assemblySoftwareDisplay}, "chimeraChecks": body_chimeraChecks}, "chimeraChecksDisplay": body_chimeraChecksDisplay}, "clusteringTools": body_clusteringTools}, "clusteringToolsDisplay": body_clusteringToolsDisplay}, "taxoAssignTools": body_taxoAssignTools}, "taxoAssignToolsDisplay": body_taxoAssignToolsDisplay}, "taxoAssignDbs": body_taxoAssignDbs}, "taxoAssignDbsDisplay": body_taxoAssignDbsDisplay}, "procedure": body_procedure}, "displayProcedure": body_displayProcedure}, "validStatusPublic": body_validStatusPublic}, "validPublicStatusSoftware": body_validPublicStatusSoftware}, "validStatusProcedure": body_validStatusProcedure}, "slugWithStatus": body_slugWithStatus}, "canDelete": body_canDelete}, "doi": body_doi}, "id": body_id}, "name": body_name}, "project": body_project}, "status": body_status}, "correctStatusAndProject": body_correctStatusAndProject}, "slug": body_slug}, "url": body_url}
+        "version": body_version, "bioinformaticFrameworks": body_bioinformaticFrameworks, "bioinformaticFrameworksDisplay": body_bioinformaticFrameworksDisplay, "trimmingAndDenoisingTools": body_trimmingAndDenoisingTools, "trimmingAndDenoisingToolsDisplay": body_trimmingAndDenoisingToolsDisplay, "assemblySoftware": body_assemblySoftware, "assemblySoftwareDisplay": body_assemblySoftwareDisplay, "chimeraChecks": body_chimeraChecks, "chimeraChecksDisplay": body_chimeraChecksDisplay, "clusteringTools": body_clusteringTools, "clusteringToolsDisplay": body_clusteringToolsDisplay, "taxoAssignTools": body_taxoAssignTools, "taxoAssignToolsDisplay": body_taxoAssignToolsDisplay, "taxoAssignDbs": body_taxoAssignDbs, "taxoAssignDbsDisplay": body_taxoAssignDbsDisplay, "procedure": body_procedure, "displayProcedure": body_displayProcedure, "validStatusPublic": body_validStatusPublic, "validPublicStatusSoftware": body_validPublicStatusSoftware, "validStatusProcedure": body_validStatusProcedure, "slugWithStatus": body_slugWithStatus, "canDelete": body_canDelete, "doi": body_doi, "id": body_id, "name": body_name, "project": body_project, "status": body_status, "correctStatusAndProject": body_correctStatusAndProject, "slug": body_slug, "url": body_url
     }
     json_content = {
         **optional_json_content,

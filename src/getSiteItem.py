@@ -10,6 +10,7 @@ def getSiteItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/sites/{id}".format(

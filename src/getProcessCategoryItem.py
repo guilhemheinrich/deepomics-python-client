@@ -10,6 +10,7 @@ def getProcessCategoryItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/process_categories/{id}".format(

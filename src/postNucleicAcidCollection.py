@@ -12,13 +12,14 @@ def postNucleicAcidCollection(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "${data.path}"
     
     # Body parameters (required)
     required_body_content = {
-        "nucleicAcidDosageMethods": body_nucleicAcidDosageMethods}, "displayNucleicAcidDosageMethods": body_displayNucleicAcidDosageMethods}, "nucleicAcidExtractionMethods": body_nucleicAcidExtractionMethods}, "displayNucleicAcidExtractionMethods": body_displayNucleicAcidExtractionMethods}, "nucleicAcidExtraction": body_nucleicAcidExtraction}, "displayNucleicAcidExtraction": body_displayNucleicAcidExtraction}, "id": body_id}, "measures": body_measures}
+        "nucleicAcidDosageMethods": body_nucleicAcidDosageMethods, "displayNucleicAcidDosageMethods": body_displayNucleicAcidDosageMethods, "nucleicAcidExtractionMethods": body_nucleicAcidExtractionMethods, "displayNucleicAcidExtractionMethods": body_displayNucleicAcidExtractionMethods, "nucleicAcidExtraction": body_nucleicAcidExtraction, "displayNucleicAcidExtraction": body_displayNucleicAcidExtraction, "id": body_id, "measures": body_measures
     }
     json_content = {
         **optional_json_content,

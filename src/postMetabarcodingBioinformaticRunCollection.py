@@ -12,13 +12,14 @@ def postMetabarcodingBioinformaticRunCollection(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "${data.path}"
     
     # Body parameters (required)
     required_body_content = {
-        "sequencingSamples": body_sequencingSamples}, "project": body_project}, "bioinformaticWorkflow": body_bioinformaticWorkflow}, "displayBioinformaticWorkflow": body_displayBioinformaticWorkflow}, "biomFile": body_biomFile}, "metricsFile": body_metricsFile}, "nwkFile": body_nwkFile}, "logFiles": body_logFiles}, "metricsFileReport": body_metricsFileReport}, "biomFileReport": body_biomFileReport}, "canDelete": body_canDelete}, "comments": body_comments}, "id": body_id}, "name": body_name}, "slug": body_slug}
+        "sequencingSamples": body_sequencingSamples, "project": body_project, "bioinformaticWorkflow": body_bioinformaticWorkflow, "displayBioinformaticWorkflow": body_displayBioinformaticWorkflow, "biomFile": body_biomFile, "metricsFile": body_metricsFile, "nwkFile": body_nwkFile, "logFiles": body_logFiles, "metricsFileReport": body_metricsFileReport, "biomFileReport": body_biomFileReport, "canDelete": body_canDelete, "comments": body_comments, "id": body_id, "name": body_name, "slug": body_slug
     }
     json_content = {
         **optional_json_content,

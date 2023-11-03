@@ -10,6 +10,7 @@ def getPersonItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/people/{id}".format(

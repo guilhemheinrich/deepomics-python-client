@@ -10,6 +10,7 @@ def deleteProjectItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/projects/{id}".format(

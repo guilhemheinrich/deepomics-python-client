@@ -10,6 +10,7 @@ def getBufferGenericNameItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/buffer_generic_names/{id}".format(

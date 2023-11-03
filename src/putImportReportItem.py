@@ -15,6 +15,7 @@ def putImportReportItem(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "/import_reports/{subject}".format(
@@ -23,7 +24,7 @@ def putImportReportItem(
     
     # Body parameters (required)
     required_body_content = {
-        "status": body_status}, "subject": body_subject}, "errors": body_errors}, "warnings": body_warnings}, "creations": body_creations}, "editions": body_editions}, "deletions": body_deletions}, "untouched": body_untouched}
+        "status": body_status, "subject": body_subject, "errors": body_errors, "warnings": body_warnings, "creations": body_creations, "editions": body_editions, "deletions": body_deletions, "untouched": body_untouched
     }
     json_content = {
         **optional_json_content,

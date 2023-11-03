@@ -15,6 +15,7 @@ def putChemicalCompoundItem(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "/chemical_compounds/{id}".format(
@@ -23,7 +24,7 @@ def putChemicalCompoundItem(
     
     # Body parameters (required)
     required_body_content = {
-        "state": body_state}, "purity": body_purity}, "grade": body_grade}, "brand": body_brand}, "linearFormula": body_linearFormula}, "linearFormulaIsotope": body_linearFormulaIsotope}, "cas": body_cas}, "descriptionForSample": body_descriptionForSample}, "inputCategory": body_inputCategory}, "project": body_project}, "samples": body_samples}, "documents": body_documents}, "slugForSample": body_slugForSample}, "comments": body_comments}, "id": body_id}, "measures": body_measures}, "name": body_name}, "labeledElements": body_labeledElements}, "labeledElementForSample": body_labeledElementForSample}
+        "state": body_state, "purity": body_purity, "grade": body_grade, "brand": body_brand, "linearFormula": body_linearFormula, "linearFormulaIsotope": body_linearFormulaIsotope, "cas": body_cas, "descriptionForSample": body_descriptionForSample, "inputCategory": body_inputCategory, "project": body_project, "samples": body_samples, "documents": body_documents, "slugForSample": body_slugForSample, "comments": body_comments, "id": body_id, "measures": body_measures, "name": body_name, "labeledElements": body_labeledElements, "labeledElementForSample": body_labeledElementForSample
     }
     json_content = {
         **optional_json_content,

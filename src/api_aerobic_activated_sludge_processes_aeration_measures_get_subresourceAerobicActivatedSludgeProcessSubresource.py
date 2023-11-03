@@ -13,6 +13,7 @@ def api_aerobic_activated_sludge_processes_aeration_measures_get_subresourceAero
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/aerobic_activated_sludge_processes/{id}/aeration/measures".format(

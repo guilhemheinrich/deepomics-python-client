@@ -10,6 +10,7 @@ def getSequencingCenterItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/sequencing_centers/{id}".format(

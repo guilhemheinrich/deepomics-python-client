@@ -13,6 +13,7 @@ def api_chemical_compounds_measures_get_subresourceChemicalCompoundSubresource(
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/chemical_compounds/{id}/measures".format(

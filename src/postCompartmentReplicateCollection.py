@@ -12,13 +12,14 @@ def postCompartmentReplicateCollection(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "${data.path}"
     
     # Body parameters (required)
     required_body_content = {
-        "compartment": body_compartment}, "reactorReplicate": body_reactorReplicate}, "slug": body_slug}, "reactorSlug": body_reactorSlug}, "compartmentSlug": body_compartmentSlug}, "displayName": body_displayName}, "longSlug": body_longSlug}, "parentSlug": body_parentSlug}, "parentId": body_parentId}, "events": body_events}, "project": body_project}, "monitoredMeasureTypes": body_monitoredMeasureTypes}, "measurements": body_measurements}, "id": body_id}
+        "compartment": body_compartment, "reactorReplicate": body_reactorReplicate, "slug": body_slug, "reactorSlug": body_reactorSlug, "compartmentSlug": body_compartmentSlug, "displayName": body_displayName, "longSlug": body_longSlug, "parentSlug": body_parentSlug, "parentId": body_parentId, "events": body_events, "project": body_project, "monitoredMeasureTypes": body_monitoredMeasureTypes, "measurements": body_measurements, "id": body_id
     }
     json_content = {
         **optional_json_content,

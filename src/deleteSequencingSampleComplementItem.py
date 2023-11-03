@@ -10,6 +10,7 @@ def deleteSequencingSampleComplementItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/sequencing_sample_complements/{id}".format(

@@ -10,6 +10,7 @@ def deleteLibraryItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/libraries/{id}".format(

@@ -10,6 +10,7 @@ def deleteReactorItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/reactors/{id}".format(

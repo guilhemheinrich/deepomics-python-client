@@ -10,6 +10,7 @@ def experimental-series_locationsLocationCollection(
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "${data.path}"

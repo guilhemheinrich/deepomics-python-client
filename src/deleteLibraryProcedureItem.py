@@ -10,6 +10,7 @@ def deleteLibraryProcedureItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/library_procedures/{id}".format(

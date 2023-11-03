@@ -12,13 +12,14 @@ def postPersonCollection(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "${data.path}"
     
     # Body parameters (required)
     required_body_content = {
-        "displayName": body_displayName}, "firstname": body_firstname}, "lastname": body_lastname}, "email": body_email}, "phoneNumber": body_phoneNumber}, "slug": body_slug}, "id": body_id}
+        "displayName": body_displayName, "firstname": body_firstname, "lastname": body_lastname, "email": body_email, "phoneNumber": body_phoneNumber, "slug": body_slug, "id": body_id
     }
     json_content = {
         **optional_json_content,

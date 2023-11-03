@@ -10,6 +10,7 @@ def export_samplesOperationItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/operation/{id}/export/samples/{format}/{templateOnly}".format(

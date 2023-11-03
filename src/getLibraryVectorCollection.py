@@ -10,6 +10,7 @@ def getLibraryVectorCollection(
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "${data.path}"

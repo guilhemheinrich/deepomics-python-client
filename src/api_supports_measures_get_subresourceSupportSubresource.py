@@ -13,6 +13,7 @@ def api_supports_measures_get_subresourceSupportSubresource(
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/supports/{id}/measures".format(

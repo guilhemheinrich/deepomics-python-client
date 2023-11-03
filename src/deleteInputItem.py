@@ -10,6 +10,7 @@ def deleteInputItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/inputs/{id}".format(

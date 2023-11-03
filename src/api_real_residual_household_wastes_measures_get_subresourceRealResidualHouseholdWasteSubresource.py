@@ -13,6 +13,7 @@ def api_real_residual_household_wastes_measures_get_subresourceRealResidualHouse
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/real_residual_household_wastes/{id}/measures".format(

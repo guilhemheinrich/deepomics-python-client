@@ -13,6 +13,7 @@ def api_organisms_measures_get_subresourceOrganismSubresource(
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/organisms/{id}/measures".format(

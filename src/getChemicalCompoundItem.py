@@ -10,6 +10,7 @@ def getChemicalCompoundItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/chemical_compounds/{id}".format(

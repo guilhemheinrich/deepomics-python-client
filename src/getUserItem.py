@@ -10,6 +10,7 @@ def getUserItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/users/{subject}".format(

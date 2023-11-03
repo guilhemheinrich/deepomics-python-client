@@ -13,6 +13,7 @@ def api_manufactured_materials_measures_get_subresourceManufacturedMaterialSubre
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/manufactured_materials/{id}/measures".format(

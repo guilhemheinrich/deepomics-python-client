@@ -12,13 +12,14 @@ def postPermissionCollection(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "${data.path}"
     
     # Body parameters (required)
     required_body_content = {
-        "id": body_id}, "iri": body_iri}, "action": body_action}, "isGranted": body_isGranted}
+        "id": body_id, "iri": body_iri, "action": body_action, "isGranted": body_isGranted
     }
     json_content = {
         **optional_json_content,

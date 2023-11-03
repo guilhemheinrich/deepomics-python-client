@@ -10,6 +10,7 @@ def getOrganismItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/organisms/{id}".format(

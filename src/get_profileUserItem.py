@@ -10,6 +10,7 @@ def get_profileUserItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/users/myself".format(

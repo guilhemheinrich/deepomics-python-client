@@ -10,6 +10,7 @@ def getAlterationItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/alterations/{id}".format(

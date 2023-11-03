@@ -15,6 +15,7 @@ def putSequencingSampleResultItem(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "/sequencing_sample_results/{id}".format(
@@ -23,7 +24,7 @@ def putSequencingSampleResultItem(
     
     # Body parameters (required)
     required_body_content = {
-        "submittedToInsdc": body_submittedToInsdc}, "accession": body_accession}, "fileName": body_fileName}, "reverseFileName": body_reverseFileName}, "libReadsSeqd": body_libReadsSeqd}, "meanRawReadLength": body_meanRawReadLength}, "correctAccession": body_correctAccession}, "id": body_id}
+        "submittedToInsdc": body_submittedToInsdc, "accession": body_accession, "fileName": body_fileName, "reverseFileName": body_reverseFileName, "libReadsSeqd": body_libReadsSeqd, "meanRawReadLength": body_meanRawReadLength, "correctAccession": body_correctAccession, "id": body_id
     }
     json_content = {
         **optional_json_content,

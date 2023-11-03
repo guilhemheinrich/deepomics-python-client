@@ -10,6 +10,7 @@ def getLogEntryCollection(
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "${data.path}"

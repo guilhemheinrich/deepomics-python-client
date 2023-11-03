@@ -10,6 +10,7 @@ def getCompanyActivityItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/company_activities/{id}".format(

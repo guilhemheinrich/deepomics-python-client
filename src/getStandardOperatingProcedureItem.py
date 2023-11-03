@@ -10,6 +10,7 @@ def getStandardOperatingProcedureItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/standard_operating_procedures/{id}".format(

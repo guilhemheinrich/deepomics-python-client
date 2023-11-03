@@ -10,6 +10,7 @@ def getOperationItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/operations/{id}".format(

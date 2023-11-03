@@ -15,6 +15,7 @@ def putModecomItem(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "/modecoms/{id}".format(
@@ -23,7 +24,7 @@ def putModecomItem(
     
     # Body parameters (required)
     required_body_content = {
-        "type": body_type}, "percent": body_percent}, "id": body_id}
+        "type": body_type, "percent": body_percent, "id": body_id
     }
     json_content = {
         **optional_json_content,

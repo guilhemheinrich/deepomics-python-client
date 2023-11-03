@@ -10,6 +10,7 @@ def getMatrixTypeItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/matrix_types/{id}".format(

@@ -10,6 +10,7 @@ def deleteTemperatureCategoryItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/temperature_categories/{id}".format(

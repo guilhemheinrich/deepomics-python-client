@@ -10,6 +10,7 @@ def getSampleInputItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/sample_inputs/{id}".format(

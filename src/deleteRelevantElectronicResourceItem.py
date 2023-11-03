@@ -10,6 +10,7 @@ def deleteRelevantElectronicResourceItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/relevant_electronic_resources/{id}".format(

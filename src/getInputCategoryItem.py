@@ -10,6 +10,7 @@ def getInputCategoryItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/input_categories/{id}".format(

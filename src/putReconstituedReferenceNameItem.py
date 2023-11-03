@@ -15,6 +15,7 @@ def putReconstituedReferenceNameItem(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "/reconstitued_reference_names/{id}".format(
@@ -23,7 +24,7 @@ def putReconstituedReferenceNameItem(
     
     # Body parameters (required)
     required_body_content = {
-        "id": body_id}, "name": body_name}
+        "id": body_id, "name": body_name
     }
     json_content = {
         **optional_json_content,

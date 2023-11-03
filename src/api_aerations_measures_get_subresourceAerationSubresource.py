@@ -13,6 +13,7 @@ def api_aerations_measures_get_subresourceAerationSubresource(
        
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/aerations/{id}/measures".format(

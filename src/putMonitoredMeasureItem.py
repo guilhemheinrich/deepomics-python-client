@@ -15,6 +15,7 @@ def putMonitoredMeasureItem(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "/monitored_measures/{id}".format(
@@ -23,7 +24,7 @@ def putMonitoredMeasureItem(
     
     # Body parameters (required)
     required_body_content = {
-        "measurement": body_measurement}, "dateTime": body_dateTime}, "magnetude": body_magnetude}, "unit": body_unit}, "id": body_id}
+        "measurement": body_measurement, "dateTime": body_dateTime, "magnetude": body_magnetude, "unit": body_unit, "id": body_id
     }
     json_content = {
         **optional_json_content,

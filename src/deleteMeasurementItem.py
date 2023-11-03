@@ -10,6 +10,7 @@ def deleteMeasurementItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/measurements/{id}".format(

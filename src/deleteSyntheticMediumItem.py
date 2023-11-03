@@ -10,6 +10,7 @@ def deleteSyntheticMediumItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/synthetic_media/{id}".format(

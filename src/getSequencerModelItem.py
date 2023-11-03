@@ -10,6 +10,7 @@ def getSequencerModelItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/sequencer_models/{id}".format(

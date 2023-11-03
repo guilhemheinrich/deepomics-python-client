@@ -10,6 +10,7 @@ def getCompartmentReplicateItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/compartment_replicates/{id}".format(

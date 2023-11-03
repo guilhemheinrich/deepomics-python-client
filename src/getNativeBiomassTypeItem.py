@@ -10,6 +10,7 @@ def getNativeBiomassTypeItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/native_biomass_types/{id}".format(

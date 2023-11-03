@@ -10,6 +10,7 @@ def api_reactors_compartments_constituents_amount_get_subresourceReactorSubresou
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/reactors/{id}/compartments/{compartments}/constituents/{constituents}/amount".format(

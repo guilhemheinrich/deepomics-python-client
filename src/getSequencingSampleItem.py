@@ -10,6 +10,7 @@ def getSequencingSampleItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/sequencing_samples/{id}".format(

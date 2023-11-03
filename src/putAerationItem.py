@@ -15,6 +15,7 @@ def putAerationItem(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "/aerations/{id}".format(
@@ -23,7 +24,7 @@ def putAerationItem(
     
     # Body parameters (required)
     required_body_content = {
-        "systemType": body_systemType}, "comments": body_comments}, "id": body_id}, "measures": body_measures}
+        "systemType": body_systemType, "comments": body_comments, "id": body_id, "measures": body_measures
     }
     json_content = {
         **optional_json_content,

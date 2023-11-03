@@ -15,6 +15,7 @@ def putPcrConditionsItem(
     ,
     # Optional body content
     optional_json_content = {},
+    # Headers
     headers = None
 ):
     final_path = "/pcr_conditions/{id}".format(
@@ -23,7 +24,7 @@ def putPcrConditionsItem(
     
     # Body parameters (required)
     required_body_content = {
-        "project": body_project}, "canDelete": body_canDelete}, "id": body_id}, "measures": body_measures}, "slug": body_slug}
+        "project": body_project, "canDelete": body_canDelete, "id": body_id, "measures": body_measures, "slug": body_slug
     }
     json_content = {
         **optional_json_content,

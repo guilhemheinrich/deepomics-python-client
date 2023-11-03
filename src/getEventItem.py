@@ -10,6 +10,7 @@ def getEventItem(
     
     
     ,
+    # Headers
     headers = None
 ):
     final_path = "/events/{id}".format(
